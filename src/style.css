@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #000;
+}
+
+#toDo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    gap: 15px;
+    border: 2px dashed white;
+    width: 400px;
+    height:400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#doing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    gap: 15px;
+    border: 2px dashed white;
+    width: 400px;
+    height:400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#done {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    gap: 15px;
+    border: 2px dashed white;
+    width: 400px;
+    height:400px;
+    overflow-y: auto;
+    margin-bottom: 10px;    
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+    color: white;
+    width: 350px;
+    height: 70px;
+    overflow: hidden;
+    background: purple;
+}
+
+.drag-task{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.task-title{
+    font-size: 15px;
+    overflow: hidden;
+}

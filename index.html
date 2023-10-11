@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./src/main.js"></script>
+    <title>Kanban</title>
+</head>
+<body>
+    <div class="container">
+        <div id="toDo">
+            <div class="task" draggable="true">
+                <i class="drag-task fa-solid fa-grip"></i>
+                <h1 class="task-title">Arrumar um trabalho</h1>
+            </div>
+            <div class="task" draggable="true">
+                <i class="drag-task fa-solid fa-grip"></i>
+                <h1 class="task-title">Arrumar um trabalho</h1>
+            </div>
+            <div class="task" draggable="true">
+                <i class="drag-task fa-solid fa-grip"></i>
+                <h1 class="task-title">Termina o projeto kanban</h1>
+            </div>
+            <div class="task" draggable="true">
+                <i class="drag-task fa-solid fa-grip"></i>
+                <h1 class="task-title">Ir correr hoje ás 14hrs</h1>
+            </div>
+        </div>
+        <div id="doing"></div>
+        <div id="done"></div>
+    </div>
+</body>
+</html>
